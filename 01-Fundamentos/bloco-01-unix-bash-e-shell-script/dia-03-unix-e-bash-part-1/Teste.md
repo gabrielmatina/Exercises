@@ -1,1 +1,1 @@
-# Criando a pasta do dos exercicios do dia 1
+# Criando a pasta do dos exercicios do dia 3
