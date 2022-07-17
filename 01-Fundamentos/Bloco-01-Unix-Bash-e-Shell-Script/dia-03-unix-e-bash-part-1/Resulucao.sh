@@ -38,3 +38,9 @@ mv trybe_backup.txt backup;
 
 Dentro de unix_tests, crie um novo diretório chamado backup2.
 mkdir backup2;
+
+
+#Exercicio 8
+
+Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+mv backup/trybe_backup.txt backup2;
