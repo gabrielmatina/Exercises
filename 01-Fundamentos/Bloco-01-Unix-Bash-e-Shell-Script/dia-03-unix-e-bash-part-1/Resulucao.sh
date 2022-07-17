@@ -71,3 +71,7 @@ ls
 rmdir -p backup
 
 
+# Exercicio 13
+
+# Limpe o terminal.
+clear
