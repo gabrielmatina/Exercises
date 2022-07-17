@@ -26,3 +26,9 @@ grep -r "Zambia" countries.txt
 
 # Busque por Brazil no countries.txt.
 grep -r "Brazil" countries.txt
+
+
+# Exercicio 6
+
+Busque novamente por brazil, mas agora utilizando o lower case.
+grep -r "*razil" countries.txt
