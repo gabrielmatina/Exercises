@@ -9,8 +9,12 @@ cd unix_tests;
 # Exercício 2
 
 # Crie um arquivo de texto com o nome trybe.txt.
-cp trybe.txt trybe1.txt
+touch trybe.txt;
 
 
+# Exercício 3
+
+# Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt.
+cp trybe.txt trybe_backup.txt;
 
 
