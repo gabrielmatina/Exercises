@@ -64,3 +64,19 @@ touch empty.tbt empty.pdf
 ls ~/unix_tests
 
 
+# Exercicio 12
+
+# Liste todos os arquivos que terminem com txt.
+ls *txt
+
+
+# Exercicio 13
+
+# Liste todos os arquivos que terminem com tbt ou txt.
+ls *tbt *txt
+
+
+# Exercicio 14
+
+# Acesse o manual do comando ls.
+whatis ls
