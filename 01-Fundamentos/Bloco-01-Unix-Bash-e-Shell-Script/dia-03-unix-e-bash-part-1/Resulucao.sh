@@ -26,3 +26,11 @@ mv trybe.txt trybe1.txt;
 
 # Dentro de unix_tests, crie um novo diretório chamado backup.
 mkdir backup;
+
+
+# Exercicio 6
+
+# Mova o arquivo trybe_backup.txt para o diretório backup.
+mv trybe_backup.txt backup;
+
+
