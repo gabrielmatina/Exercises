@@ -1,9 +1,16 @@
 # Exercício 1
 
-echo -e "\nCcrie um diretório chamado unix_tests"
+# Crie um diretório chamado unix_tests.
 mkdir unix_tests;
-echo -e "\nNavegue até ele"
+# Navegue até ele
 cd unix_tests;
+
+
+# Exercício 2
+
+# Crie um arquivo de texto com o nome trybe.txt.
+cp trybe.txt trybe1.txt
+
 
 
 
