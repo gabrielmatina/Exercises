@@ -30,5 +30,18 @@ grep -r "Brazil" countries.txt
 
 # Exercicio 6
 
-Busque novamente por brazil, mas agora utilizando o lower case.
-grep -r "*razil" countries.txt
+# Busque novamente por brazil, mas agora utilizando o lower case.
+grep -i "Brazil" countries.txt
+
+
+# Exercicio 7
+
+# Busque pelas frases que não contenham a palavra fox.
+grep -v "fox" countries.txt
+
+
+# Exercicio 8
+
+# Conte o número de palavras do arquivo phrases.txt.
+wc -w phrases.txt
+
