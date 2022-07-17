@@ -45,3 +45,22 @@ grep -v "fox" countries.txt
 # Conte o número de palavras do arquivo phrases.txt.
 wc -w phrases.txt
 
+
+# Exercicio 9
+
+# Conte o número de linhas do arquivo phrases.txt.
+wc -l phrases.txt
+
+
+# Exercicio 10
+
+# Crie os arquivos empty.tbt e empty.pdf.
+touch empty.tbt empty.pdf
+
+
+# Exercicio 11
+
+# Liste todos os arquivos do diretório unix_tests.
+ls ~/unix_tests
+
+
