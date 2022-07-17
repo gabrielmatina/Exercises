@@ -16,3 +16,7 @@ cat countries.txt
 cat countries.txt
 
 
+# Exercicio 4
+
+# Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+grep -r "Zambia" countries.txt
