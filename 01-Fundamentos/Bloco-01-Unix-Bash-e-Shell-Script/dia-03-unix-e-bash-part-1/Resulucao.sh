@@ -18,3 +18,8 @@ touch trybe.txt;
 cp trybe.txt trybe_backup.txt;
 
 
+# Exercício 4
+Renomeie o arquivo trybe.txt.
+mv trybe.txt trybe1.txt
+
+
