@@ -52,7 +52,16 @@ mv backup/trybe_backup.txt backup2
 rmdir backup
 
 
-#Exercicio 10
+# Exercicio 10
 
-Renomeie a pasta backup2 para backup.
+# Renomeie a pasta backup2 para backup.
 mv backup2 backup
+
+
+# Exercicio 11
+
+# Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+pwd
+ls
+
+
