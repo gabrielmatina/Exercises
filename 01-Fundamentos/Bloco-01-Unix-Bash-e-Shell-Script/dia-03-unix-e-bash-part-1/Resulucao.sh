@@ -51,3 +51,8 @@ mv backup/trybe_backup.txt backup2
 # Apague a pasta backup.
 rmdir backup
 
+
+#Exercicio 10
+
+Renomeie a pasta backup2 para backup.
+mv backup2 backup
