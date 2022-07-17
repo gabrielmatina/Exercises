@@ -34,3 +34,7 @@ mkdir backup;
 mv trybe_backup.txt backup;
 
 
+#Exercicio 7
+
+Dentro de unix_tests, crie um novo diretório chamado backup2.
+mkdir backup2;
