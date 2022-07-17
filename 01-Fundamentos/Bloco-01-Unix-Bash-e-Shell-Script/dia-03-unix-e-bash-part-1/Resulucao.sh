@@ -65,3 +65,9 @@ pwd
 ls
 
 
+# Exercicio 12
+
+# Apague o diretório backup.
+rmdir -p backup
+
+
