@@ -1,3 +1,45 @@
+Exercicios de fixação
+
+Parte II - Seletores de elementos
+Para fixar - getElementById
+
+
+      // 1- Recupere o elemento que contém o título da página e faça algo com ele,
+      // como alterá-lo para o nome do seu filme favorito.
+      const title = document.getElementById('page-title');
+      title.innerText = 'The hitchhiker\'s guide to the galaxy';
+
+      // 2 - Agora recupere o segundo parágrafo e use sua criatividade para
+      //  alterá-lo.
+      const secondParagraph = document.getElementById('second-paragraph');
+      secondParagraph.innerText = 'The answer to life the universe and everything is 42.';
+
+      // 3 - Por fim, recupere o subtítulo e altere-o também.
+      const subtitle = document.getElementById('subtitle');
+      subtitle.innerText = 'So long and thanks for all the fish';
+
+      // 1. Adicione uma classe igual para os dois parágrafos.
+      // Resposta: Foi adicionada a class 'para' aos dois parágrafos.
+
+      // 2. Recupere os seus parágrafos via código _JavaScript_, usando a função
+      // `getElementsByClassName`;
+      const paragraphs = document.getElementsByClassName('para');
+
+      // 3. Altere algum estilo do primeiro deles.
+      paragraphs[0].style.fontSize = '1.5rem';
+      paragraphs[0].style.color = 'green';
+
+      // 4. Recupere o subtítulo e altere a cor dele usando a função 
+      // `getElementsByTagName`.
+      const subtitle = document.getElementsByTagName('h4')[0];
+      subtitle.style.color = 'red';      
+
+
+
+
+
+
+
 Funções de manipulação do DOM
 É hora de aplicar seus conhecimentos em manipular os elementos do HTML!
 A seguir, você verá um trecho de código HTML e CSS.
@@ -6,50 +48,7 @@ Leia as instruções que estão dentro de um comentário na tag <script>.
 Não se esqueça de fazer um commit a cada exercício!
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício 5.1</title>
-    
-    <style>
-      main, section {
-        border-color: black;
-        border-style: solid;
-      }
 
-      .title {
-        text-align: center;
-      }
-
-      .main-content {
-        background-color: yellow;
-      }
-
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
-
-      .main-content .center-content p {
-        font-style: italic;
-      }
-    </style>
-  </head>
-  <body>
-    <header> 
-      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
-    </header>    
-    <main class="main-content">
-      <section class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
-      </section>
-    </main>
-    <script>
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
@@ -62,6 +61,3 @@ Não se esqueça de fazer um commit a cada exercício!
         5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
         6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-    </script>
-  </body>
-</html>
