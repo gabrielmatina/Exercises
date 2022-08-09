@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <div>
+    <form action="" method="get">
+      <!-- Com Label -->
+
+      <label for="input-email">digite seu e-mail</label>
+      <input type="text" name="texto" id="input-email" autocomplete="off" autofocus required>
+      <br>
+      <label for="input-senha">digite sua senha</label>
+      <input type="password" name="texto" id="input-senha" aria-autocomplete="off" required>
+      <br>
+      <button type="submit">Enviar</button>
+      <br><br>
+      <!-- Com Placeholder -->
+      <input type="text" name="texto" placeholder="E-mail:" id="input-email" required><br>
+      <input type="password" name="texto" placeholder="Senha:" id="input-senha" required><br>
+      <button type="submit">Enviar</button><br><br>
+      <!-- Value = Valor atribuido -->
+      <!-- Name = Precisa ter o mesmo nome, desta forma só uma opção será selecionada. Nomes diferentes dão ao usuário a possibilidade de clicar em mais de uma opção -->
+      <input type="checkbox" value="lembrar" name="lembrar" id="input-lembrar">Lembre-me
+      <br><br>
+      <button type="submit">Entrar</button><br><br>
+
+
+    </form>
+  </div>
+</body>
+</html>

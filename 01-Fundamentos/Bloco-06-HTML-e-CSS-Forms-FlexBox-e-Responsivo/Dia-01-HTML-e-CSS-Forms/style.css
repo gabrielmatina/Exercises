@@ -1,0 +1,35 @@
+.alinhamento{
+  margin-left: 30px;
+}
+#nome{
+  margin-top: 20px;
+}
+#email{
+  margin-top: 10px;
+}
+#radioBotons{
+  margin-top: 20px;
+  margin-left: 23px;
+}
+#textarea{
+  margin-top: 10px;
+}
+#textarea label{
+  line-height: 30px;
+}
+#data{
+  margin-top: 20px;
+}
+#checkbox{
+  margin-top: 20px;
+}
+#checkbox2{
+  margin-top: 10px;
+}
+#botao{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+fieldset{
+  margin-right: 55%;
+}
